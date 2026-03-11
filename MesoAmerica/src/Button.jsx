@@ -1,7 +1,7 @@
 function Button(){
 
     return(
-        <p>button</p>
+        <p>button better</p>
     );
 }
 export default Button;
