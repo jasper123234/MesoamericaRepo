@@ -1,9 +1,14 @@
+import BackButton from "./components/BackButton.jsx"
+import Header from "./components/Header.jsx"
+import Module from "./components/Module.jsx"
+import Path from "./components/Module.jsx"
+
 function App(){
   return(
     <div>
       <Header
         title = 'Olmec Civilization'/>
-      <BackButton/> 
+      <BackButton/>   
         <Module
           icon = "dante.jpg"
           x = "top-60"
@@ -14,7 +19,7 @@ function App(){
           y = "right-15"/>  
         <Module
           icon = "dante.jpg"
-          x = "bottom-40"
+          x = "top-120"
           y = "right-30"/> 
     </div>
   );
