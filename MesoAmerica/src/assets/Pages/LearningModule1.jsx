@@ -1,6 +1,5 @@
-import Profile from "./components/Profile.jsx"
-import Header from "./components/Header.jsx"
-import LearningModule from "./components/LearningModule.jsx"
+import Header from "./components/Header.js"
+import LearningModule from "./components/LearningModule.js"
 
 
 function App(){

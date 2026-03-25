@@ -1,5 +1,5 @@
-import Header from "./components/Header.jsx"
-import Friends from "./components/Friends.jsx"
+import Header from "./components/Header.js"
+import FriendsComp from "./components/FriendsComp.js"
 
 function App(){
   return(
@@ -7,15 +7,15 @@ function App(){
       <Header
         title = "Friends"
       />
-      <Friends
+      <FriendsComp
         name = "EzraZealeTheCamp"
         pfp = "dante.jpg"
         />
-      <Friends
+      <FriendsComp
         name = "LipoHippo"
         pfp = "dante.jpg"
         />
-      <Friends
+      <FriendsComp
         name = "JispoCreensWolrd"
         pfp = "dante.jpg"
         />

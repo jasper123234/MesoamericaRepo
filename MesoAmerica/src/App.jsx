@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Profile from "./Pages/CivilizationProfile";
-import CivilizationProfile from "./Pages/CivilizationProfile";
+import Home from "./assets/Pages/Home";
+import About from "./assets/Pages/About";
+import Profile from "./assets/Pages/CivilizationProfile";
+import CivilizationProfile from "./assets/Pages/CivilizationProfile";
 
 function App() {
   return (
