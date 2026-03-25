@@ -1,0 +1,17 @@
+function CivHome(name, icon){
+  return(
+    <div class = "b border border-yellow-900 c p-3 mt-3  border-4">
+      <h1 class  = "text-2xl text-yellow-900 text-center">
+        {name}
+      </h1>
+      <img
+        src={icon}
+        alt="Profile Picture "
+        width="150"
+        height="150"
+      />
+  </div>
+  );
+}
+
+export default CivHome;
