@@ -2,7 +2,7 @@ import Login from "./components/Login.jsx"
 import Header from "./components/Header.jsx"
 
 
-function App(){
+function Login(){
   return(
     <div>
       <Header
@@ -12,4 +12,4 @@ function App(){
     </div>
   );
 }
-export default App;
+export default Login;

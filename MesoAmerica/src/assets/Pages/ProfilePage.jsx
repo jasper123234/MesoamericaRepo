@@ -2,7 +2,7 @@ import Profile from "./components/Profile.js"
 import Header from "./components/Header.js"
 
 
-function App(){
+function ProfilePage(){
   return(
     <div>
       <Header
@@ -16,4 +16,4 @@ function App(){
     </div>
   );
 }
-export default App;
+export default ProfilePage;

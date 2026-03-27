@@ -2,7 +2,7 @@ import QuizComp from "./components/QuizComp.jsx"
 import Header from "./components/Header.jsx"
 
 
-function App(){
+function Quiz(){
   return(
     <div>
       <Header
@@ -25,4 +25,4 @@ function App(){
     </div>
   );
 }
-export default App;
+export default Quiz;

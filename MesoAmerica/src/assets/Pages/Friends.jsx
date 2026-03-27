@@ -1,7 +1,7 @@
 import Header from "./components/Header.js"
 import FriendsComp from "./components/FriendsComp.js"
 
-function App(){
+function Friends(){
   return(
     <div>
       <Header
@@ -22,4 +22,4 @@ function App(){
     </div>
   );
 }
-export default App;
+export default Friends;
