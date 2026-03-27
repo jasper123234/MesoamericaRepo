@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 // import About from "./assets/Pages/About";
 // import Profile from "./assets/Pages/CivilizationProfile";
 // import CivilizationProfile from "./assets/Pages/CivilizationProfile";
-import Friends from "./Pages/Friends";
-import LearningModule1 from "./Pages/LearningModule1";
-import Login from "./Pages/Login";
+import Friends from "./assets/Pages/Friends";
+import LearningModule1 from "./assets/Pages/LearningModule1";
+import Login from "./assets/Pages/Login";
 import Olmec from "./Pages/Olmec";
 import ProfilePage from "./Pages/ProfilePage";
 
