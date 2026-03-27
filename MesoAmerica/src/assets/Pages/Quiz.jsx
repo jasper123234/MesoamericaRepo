@@ -14,6 +14,12 @@ function App(){
         wAns2 = "Aztec"
         rAns = "Olmec"
       />
+      <QuizComp
+        question = "What did the Olmec civilization create that was used for writing and record keeping?"
+        wAns1 = "Writing system"
+        wAns2 = "Calendar"
+        rAns = "Hieroglyphics"
+      />
       
       
     </div>
