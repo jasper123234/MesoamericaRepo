@@ -6,8 +6,8 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Friends from "./assets/Pages/Friends";
 import LearningModule1 from "./assets/Pages/LearningModule1";
 import Login from "./assets/Pages/Login";
-import Olmec from "./Pages/Olmec";
-import ProfilePage from "./Pages/ProfilePage";
+import Olmec from "./assets/Pages/Olmec";
+import ProfilePage from "./assets/Pages/ProfilePage";
 
 function App() {
   return (
