@@ -1,5 +1,5 @@
-import Header from "./components/Header.js"
-import LearningModule from "./components/LearningModule.js"
+import Header from "../components/Header.jsx"
+import LearningModule from "../components/LearningModule.jsx"
 
 
 function LearningModule1(){
