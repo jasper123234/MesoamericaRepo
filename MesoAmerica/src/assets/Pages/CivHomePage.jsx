@@ -8,15 +8,15 @@ function App(){
         title = "Home"
       />
       <CivHome
-        name = "Olmec"
+        name = "Olmec Mod"
         icon = "dante.jpg"
         />
       <CivHome
-        name = "Aztec"
+        name = "Aztec Mod"
         icon = "dante.jpg"
         />
       <CivHome
-        name = "Mayan"
+        name = "Mayan Mod"
         icon = "dante.jpg"
         />
     </div>
