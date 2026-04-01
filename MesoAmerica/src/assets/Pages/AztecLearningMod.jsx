@@ -2,19 +2,19 @@ import Header from "../components/Header.jsx"
 import LearningModule from "../components/LearningModule.jsx"
 
 
-function LearningModule1(){
+function AztecLearningModule(){
   return(
     <div>
       <Header
-        title = "Learning Module 1"
+        title = "Aztec Learning Module"
       />
       <LearningModule
-        title = "The Olmec Civilization"
-        info = "The Olmec were the first major civilization in Mesoamerica, known for their colossal stone heads and advanced understanding of astronomy and mathematics."
-        img1 = "dante.jpg"
+        title = "The Aztec Civilization"
+        info = "The Aztecs were a Mesoamerican culture that dominated Mexico in the 15th and 16th centuries, known for their advanced engineering, art, and religion."
+        img1 = "aztec.jpg"
         
       />
     </div>
   );
 }
-export default LearningModule1;
+export default AztecLearningModule;
