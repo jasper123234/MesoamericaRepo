@@ -1,8 +1,4 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-// import Home from "./assets/Pages/Home";
-// import About from "./assets/Pages/About";
-// import Profile from "./assets/Pages/CivilizationProfile";
-// import CivilizationProfile from "./assets/Pages/CivilizationProfile";
 import Friends from "./assets/Pages/Friends";
 import LearningModule1 from "./assets/Pages/LearningModule1";
 import Login from "./assets/Pages/Login";
@@ -32,22 +28,4 @@ function App() {
 }
 
 export default App;
-// function App() {
-//   return (
-//     <BrowserRouter>
-//       <nav>
-//         <Link to="/">Home</Link> |{" "}
-//         <Link to="/about">About</Link> |{" "}
-//         <Link to="/CivilizationProfile">Civilization Profile</Link>
-//       </nav>
 
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/CivilizationProfile" element={<CivilizationProfile />} />
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
-
-// export default App;
