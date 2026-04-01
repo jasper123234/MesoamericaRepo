@@ -2,7 +2,7 @@ import BackButton from "../components/BackButton.jsx"
 import Header from "../components/Header.jsx"
 import Module from "../components/Module.jsx"
 
-function App(){
+function Olmec(){
   return(
     <div>
       <Header
@@ -23,4 +23,4 @@ function App(){
     </div>
   );
 }
-export default App;
+export default Olmec;

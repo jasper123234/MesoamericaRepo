@@ -1,8 +1,8 @@
-import Header from "./components/Header.js"
-import LearningModule from "./components/LearningModule.js"
+import Header from "../components/Header.jsx"
+import LearningModule from "../components/LearningModule.jsx"
 
 
-function App(){
+function LearningModule1(){
   return(
     <div>
       <Header
@@ -17,4 +17,4 @@ function App(){
     </div>
   );
 }
-export default App;
+export default LearningModule1;

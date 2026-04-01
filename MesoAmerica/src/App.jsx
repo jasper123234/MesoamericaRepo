@@ -1,27 +1,31 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-// import Home from "./assets/Pages/Home";
-// import About from "./assets/Pages/About";
-// import Profile from "./assets/Pages/CivilizationProfile";
-import Mayan from "./assets/Pages/Mayan";
+import Friends from "./assets/Pages/Friends";
+import LearningModule1 from "./assets/Pages/LearningModule1";
+import Login from "./assets/Pages/Login";
 import Olmec from "./assets/Pages/Olmec";
-import Aztec from "./assets/Pages/Aztec";
+import ProfilePage from "./assets/Pages/ProfilePage";
 
 function App() {
   return (
-    <BrowserRouter>
-      <nav>
-        <Link to="/Aztec">Aztec Profile</Link>
-        <Link to="/Olmec">Olmec Profile</Link>
-        <Link to="/Mayan">Mayan Profile</Link>
-      </nav>
+ <BrowserRouter>
+  <nav>
+    <Link to="/">Friends</Link> |{" "}
+    <Link to="/learning">Learning</Link> |{" "}
+    <Link to="/login">Login</Link> |{" "}
+    <Link to="/olmec">Olmec</Link> |{" "}
+    <Link to="/profile">Profile</Link>
+  </nav>
 
-      <Routes>
-        <Route path="/Aztec" element={<Aztec />} /> 
-        <Route path="/Olmec" element={<Olmec />} /> 
-        <Route path="/Mayan" element={<Mayan />} />
-      </Routes>
-    </BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Friends />} />
+    <Route path="/learning" element={<LearningModule1 />} />
+    <Route path="/login" element={<Login />} />
+    <Route path="/olmec" element={<Olmec />} />
+    <Route path="/profile" element={<ProfilePage />} />
+  </Routes>
+</BrowserRouter>
   );
 }
 
 export default App;
+
