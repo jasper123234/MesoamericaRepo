@@ -1,4 +1,4 @@
-function Module({icon, x, y}) {
+function Module({link,icon, x, y}) {
   return (
     <img
       src={icon}
