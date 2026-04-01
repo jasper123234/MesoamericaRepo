@@ -2,7 +2,7 @@ import QuizComp from "./components/QuizComp.jsx"
 import Header from "./components/Header.jsx"
 
 
-function Quiz(){
+function QuizAztec(){
   return(
     <div>
       <Header
@@ -25,4 +25,4 @@ function Quiz(){
     </div>
   );
 }
-export default Quiz;
+export default QuizAztec;
