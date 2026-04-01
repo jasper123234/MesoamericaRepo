@@ -1,12 +1,17 @@
-function Module({icon, x, y}) {
+function Module({link, icon, x, y }) {
   return (
-    <img
-      src={icon}
-      alt="Example Image"
-      width="150"
-      height="150"
-      className={`absolute ${x} ${y}`}
-    />
+    <div>
+      <a href= {link}> 
+        <img
+          src={icon}
+          alt="Example Image"
+          width="150"
+          height="150"
+          className={`absolute ${x} ${y}`}
+        />
+     </a>
+
+    </div>
   );
 }
 
