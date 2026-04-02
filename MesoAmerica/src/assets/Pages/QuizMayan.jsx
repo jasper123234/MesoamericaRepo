@@ -1,5 +1,5 @@
-import QuizComp from "./components/QuizComp.jsx"
-import Header from "./components/Header.jsx"
+import QuizComp from "../components/QuizComp.jsx"
+import Header from "../components/Header.jsx"
 
 
 function QuizMayan(){

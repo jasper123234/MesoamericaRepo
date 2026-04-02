@@ -2,11 +2,11 @@ import Header from "../components/Header.jsx"
 import LearningModule from "../components/LearningModule.jsx"
 
 
-function LearningModule1(){
+function OlmecLearningMod(){
   return(
     <div>
       <Header
-        title = "Learning Module 1"
+        title = "Olmec Learning Module"
       />
       <LearningModule
         title = "The Olmec Civilization"
@@ -17,4 +17,4 @@ function LearningModule1(){
     </div>
   );
 }
-export default LearningModule1;
+export default OlmecLearningMod;
