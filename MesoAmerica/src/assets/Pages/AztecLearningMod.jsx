@@ -6,11 +6,11 @@ function LearningModule1(){
   return(
     <div>
       <Header
-        title = "Learning Module 1"
+        title = "Aztec Learning Module"
       />
       <LearningModule
-        title = "The Olmec Civilization"
-        info = "The Olmec were the first major civilization in Mesoamerica, known for their colossal stone heads and advanced understanding of astronomy and mathematics."
+        title = "The Aztec Civilization"
+        info = "The Aztecs were a Mesoamerican civilization known for their advanced understanding of astronomy and mathematics, as well as their impressive architectural achievements."
         img1 = "dante.jpg"
         
       />
