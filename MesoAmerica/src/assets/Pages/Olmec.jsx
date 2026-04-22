@@ -1,7 +1,6 @@
-import BackButton from "./components/BackButton.jsx"
-import Header from "./components/Header.jsx"
-import Module from "./components/Module.jsx"
-import Path from "./components/Module.jsx"
+import BackButton from "../components/BackButton.jsx"
+import Header from "../components/Header.jsx"
+import Module from "../components/Module.jsx"
 
 function App(){
   return(

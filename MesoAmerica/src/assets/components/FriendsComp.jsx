@@ -1,4 +1,4 @@
-function Friends({name, pfp}){
+function FriendsComp({name, pfp}){
   return(
     <div class = "b border border-yellow-900 c p-3 mt-3  border-4">
       <h1 class  = "text-2xl text-yellow-900 text-center">
@@ -14,4 +14,4 @@ function Friends({name, pfp}){
   )
 }
 
-export default Friends;
+export default FriendsComp;
