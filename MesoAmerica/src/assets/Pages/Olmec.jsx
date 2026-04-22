@@ -1,6 +1,8 @@
 import BackButton from "../components/BackButton.jsx"
 import Header from "../components/Header.jsx"
 import Module from "../components/Module.jsx"
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
 
 function Olmec(){
   return(
@@ -9,17 +11,17 @@ function Olmec(){
         title = 'Olmec Civilization'/>
       <BackButton/>   
         <Module
-          link = "/MesoAmerica/OlmecLearningMod.jsx"
+          link = "/OlmecLearningMod"
           icon = "dante.jpg"
           x = "top-60"
           y = "left-15"/>
         <Module
-          link = "/MesoAmerica/QuizOlmec.jsx"
+          link = "/QuizOlmec"
           icon = "dante.jpg"
           x = "top-90"
           y = "right-15"/>  
         <Module
-          link = "/MesoAmerica/DummyLink.jsx"
+          link = "/DummyLink"
           icon = "dante.jpg"
           x = "top-120"
           y = "right-30"/> 

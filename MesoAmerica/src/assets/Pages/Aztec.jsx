@@ -9,16 +9,17 @@ function App(){
         title = 'Aztec Civilization'/>
       <BackButton/>   
         <Module
-          link = "/MesoAmerica/AztecLearningMod.jsx"
+          link = "/AztecLearningMod"
           icon = "dante.jpg"
           x = "top-60"
           y = "left-15"/>
         <Module
-          link = "/MesoAmerica/AztecQuiz.jsx"
+          link = "/QuizAztec"
           icon = "dante.jpg"
           x = "top-90"
           y = "right-15"/>  
         <Module
+          link = "/DummyLink"
           icon = "dante.jpg"
           x = "top-120"
           y = "right-30"/> 

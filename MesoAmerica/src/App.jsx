@@ -20,10 +20,8 @@ function App() {
         <Link to="/Mayan">-Mayan Profile-</Link>
         <Link to="/MayanLearningMod">-Mayan Learning Module-</Link>
         <Link to="/AztecLearningMod">-Aztec Learning Module-</Link>
-        <Link to="/OlmecLearningMod">-Olmec Learning Module-</Link>
         <Link to="/QuizMayan">-Mayan Quiz-</Link>
         <Link to="/QuizAztec">-Aztec Quiz-</Link>
-        <Link to="/QuizOlmec">-Olmec Quiz-</Link>
       </nav>
 
       <Routes>
