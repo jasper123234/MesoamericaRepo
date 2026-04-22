@@ -14,14 +14,10 @@ function App() {
   return (
     <BrowserRouter>
       <nav>
-        <Link to="/Aztec">-Aztec Profile-</Link>
         <Link to="/ProfilePage">-Profile Page-</Link>
+        <Link to="/Aztec">-Aztec Profile-</Link>
         <Link to="/Olmec">-Olmec Profile-</Link>
         <Link to="/Mayan">-Mayan Profile-</Link>
-        <Link to="/MayanLearningMod">-Mayan Learning Module-</Link>
-        <Link to="/AztecLearningMod">-Aztec Learning Module-</Link>
-        <Link to="/QuizMayan">-Mayan Quiz-</Link>
-        <Link to="/QuizAztec">-Aztec Quiz-</Link>
       </nav>
 
       <Routes>
