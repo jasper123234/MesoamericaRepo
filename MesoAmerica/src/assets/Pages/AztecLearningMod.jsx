@@ -9,11 +9,17 @@ function LearningModule1(){
         title = "Aztec Learning Module"
       />
       <LearningModule
-        title = "The Aztec Civilization"
-        info = "The Aztecs were a Mesoamerican civilization known for their advanced understanding of astronomy and mathematics, as well as their impressive architectural achievements."
+        title = "Location and Time Period"
+        info = "The Aztec Civilization lived in Central Mexico or Modern day Mexico City in 1200s-1521."
         img1 = "dante.jpg"
         
       />
+      <LearningModule
+        title = "Fun Facts"
+        info = ""
+        img1 = "dante.jpg"
+      />
+
     </div>
   );
 }
