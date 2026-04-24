@@ -13,17 +13,17 @@ function App(){
         <Module
            link = "/MayanLearningMod"
           icon = {Temple}
-          x = "top-60"
+          x = "top-30"
           y = "left-90"/>
         <Module
           link = "/QuizMayan"
           icon = {Temple}
-          x = "top-120"
+          x = "top-90"
           y = "right-90"/>  
         <Module
           link = "/DummyLink"
           icon = {Temple}
-          x = "top-180"
+          x = "top-150"
           y = "right-180"/> 
     </div>
   );

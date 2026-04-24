@@ -12,17 +12,17 @@ function App(){
         <Module
           link = "/AztecLearningMod"
           icon = {AztecCal}
-          x = "top-60"
+          x = "top-30"
           y = "left-90"/>
         <Module
           link = "/QuizAztec"
           icon = {AztecCal}
-          x = "top-120"
+          x = "top-90"
           y = "right-90"/>  
         <Module
           link = "/DummyLink"
           icon = {AztecCal}
-          x = "top-180"
+          x = "top-150"
           y = "right-180"/> 
     </div>
   );

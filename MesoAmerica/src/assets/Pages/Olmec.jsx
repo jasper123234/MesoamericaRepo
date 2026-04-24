@@ -13,17 +13,17 @@ function Olmec(){
         <Module
           link = "/OlmecLearningMod"
           icon = {OlmecHead}
-          x = "top-60"
+          x = "top-30"
           y = "left-90"/>
         <Module
           link = "/QuizOlmec"
           icon = {OlmecHead}
-          x = "top-120"
+          x = "top-90"
           y = "right-900"/>  
         <Module
           link = "/DummyLink"
           icon = {OlmecHead}
-          x = "top-180"
+          x = "top-150"
           y = "right-180"/> 
     </div>
   );
