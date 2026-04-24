@@ -22,7 +22,7 @@ function App(){
           link = "/DummyLink"
           icon = "dante.jpg"
           x = "top-120"
-          y = "right-30"/> 
+          y = "right-90"/> 
     </div>
   );
 }
