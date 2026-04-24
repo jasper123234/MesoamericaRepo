@@ -18,13 +18,13 @@ function App(){
         <Module
           link = "/QuizMayan"
           icon = {Temple}
-          x = "top-90"
+          x = "top-120"
           y = "right-90"/>  
         <Module
           link = "/DummyLink"
           icon = {Temple}
-          x = "top-120"
-          y = "right-120"/> 
+          x = "top-180"
+          y = "right-180"/> 
     </div>
   );
 }
