@@ -20,16 +20,12 @@ function OlmecLearningMod(){
       />
        <LearningModule
         title = "Agriculutral Practices"
-        info = "Used slash-and-burn farming to clear land Grew crops together (maize, beans, squash) Built raised fields and canals for water control Farmed based on seasons Maize considered sacred crop
-"
+        info = "Used slash-and-burn farming to clear land Grew crops together (maize, beans, squash) Built raised fields and canals for water control Farmed based on seasons Maize considered sacred crop"
         
       />
        <LearningModule
         title = "Social Structure"
-        info = "Elite - rulers and priests - in charge of government and religion
-Middle Class - artisans and merchants (made goods and traded)
-Lower class - farmers and laborers(grew food and built structures)
-Labor & Jobs: Farmers grew crops, artisans made pottery, tools, and carvings"
+        info = "Elites: Rulers, priests, and nobles who held power and wealth Commoners: Farmers, artisans, and laborers who made up the majority of the population Slaves: Captured individuals used for labor and sacrifice"
         
       />
     </div>
