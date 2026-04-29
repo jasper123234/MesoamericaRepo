@@ -5,7 +5,7 @@ import AztecCal from "../AztecCal.jpg"
 
 function App(){
   return(
-    <div>
+        <div className="min-h-screen w-full bg-gradient-to-b from-green-200 via-green-400 to-green-700">
       <Header
         title = 'Aztec Civilization'/>
       <BackButton/>   

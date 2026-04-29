@@ -2,10 +2,6 @@ function LearningModule({ title, info, img1 }) {
   return (
     <div className="relative max-w-4xl mx-auto mt-10 px-6 py-8 overflow-hidden rounded-3xl">
 
-      {/* FULL BACKGROUND (GREEN GRADIENT ONLY) */}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-green-200 via-green-400 to-green-700" />
-
-      {/* TOP CARD */}
       <div className="bg-gradient-to-br from-yellow-200/95 via-orange-300/95 to-yellow-500/95
                       border-4 border-yellow-900
                       rounded-3xl
@@ -24,8 +20,7 @@ function LearningModule({ title, info, img1 }) {
           />
         </div>
       </div>
-
-      {/* INFO CARD */}
+      
       <div className="bg-gradient-to-r from-yellow-100/95 via-yellow-200/95 to-orange-200/95
                       border-4 border-yellow-900
                       rounded-2xl

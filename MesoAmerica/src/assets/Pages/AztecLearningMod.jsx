@@ -4,8 +4,8 @@ import LearningModule from "../components/LearningModule.jsx"
 
 function LearningModule1(){
   return(
-    <div>
-      <div className="min-h-screen w-full bg-gradient-to-b from-green-200 via-green-400 to-green-700"></div>
+    <div className="min-h-screen w-full bg-gradient-to-b from-green-200 via-green-400 to-green-700">
+      
       <Header
         title = "Aztec Learning Module"
       />
