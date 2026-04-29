@@ -9,17 +9,20 @@ function QuizMayan(){
         title = "Mayan Quiz #1"
       />
       <QuizComp
-        question = "What was the most important crop in Maya daily life?"
-        wAns1 = "Wheat"
-        wAns2 = "Rice"
-        rAns = "Corn"
+        question1 = "What was the most important crop in Maya daily life?"
+        wAns1a = "Wheat"
+        wAns1b = "Rice"
+        rAns1 = "Corn"
+        question2 = "what is the capital of Mexico?"
+        wAns2a = "Acapulco"
+        wAns2b = "Tenochtitlan"
+        rAns2 = "Mexico City"
+        question3 = "filler question?"
+        wAns3a = "filler answer 1"
+        wAns3b = "filler answer 2"
+        rAns3 = "filler answer 3"
       />
-      <QuizComp
-        question = "How did the Maya most commonly consume chocolate?"
-        wAns1 = "As solid candy bars"
-        wAns2 = "Mixed with cold milk"
-        rAns = "Ground into a drink with water and spices"
-      />
+      
       
       
     </div>

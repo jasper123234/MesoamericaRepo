@@ -81,7 +81,7 @@ function QuizComp({ question1, wAns1a, wAns1b, rAns1, question2, wAns2a, wAns2b,
                onChange={(event)=>setAnswer3(rAns3)} checked = {answer3 == rAns3} /> {rAns3}
            </label>
       
-      <input type="submit" value="Submit" />
+     <br></br> <input type="submit" value="Submit" />
     </form>
       
      
