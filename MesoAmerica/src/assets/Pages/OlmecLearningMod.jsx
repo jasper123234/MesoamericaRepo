@@ -16,7 +16,7 @@ function OlmecLearningMod(){
 
       <LearningModule
         title = "Olmec Heads"
-        info = "The Olmec carved huge stone heads weighing up to 50 tons, Each one has a different face, showing real rulers"
+        info = "The Olmec carved huge stone heads weighing up to 50 tons, Each one has a different face, showing real rulers. The heads were carved from single Basalt boulders, and the biggest head being 11.2 feet tall and weighing 50 tons. In Mesoamerican belief, the head was considered the seat of the soul, emotions, and personal identity. The heads were likely created to honor and commemorate important rulers or leaders within the Olmec civilization, serving as a symbol of their power and authority."
         img1 = "dante.jpg"
       />
 
