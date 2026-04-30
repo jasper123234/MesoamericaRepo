@@ -1,14 +1,16 @@
 import QuizComp from "../components/QuizComp.jsx"
 import Header from "../components/Header.jsx"
-import { useState } from "react";
+import { useState } from "react"
 
 
 function QuizMayan(){
   const [score, setScore] = useState(0);
+  
+  
   return(
         <div className="min-h-screen w-full bg-gradient-to-b from-green-200 via-green-400 to-green-700">
       <Header
-        title = "Mayan Quiz #1"
+        title = "Mayan Civilization Quiz"
       />
       <QuizComp
         question1 = "What was the most important crop in Maya daily life?"
@@ -27,7 +29,8 @@ function QuizMayan(){
         rAns3 = "filler answer 3"
         
         score={score}
-        setScore={setScore}
+        setScore={setScore} 
+
       />
       
       {score !== 0 && <h2>Your score is: {score}/3</h2>}

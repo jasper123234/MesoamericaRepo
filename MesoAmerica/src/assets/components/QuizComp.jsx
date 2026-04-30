@@ -22,11 +22,14 @@ function QuizComp({ question1, wAns1a, wAns1b, rAns1, question2, wAns2a, wAns2b,
        
        setScore(count);
 
+       
+       
 
    }
 
        return (
-       <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
+      
       <h2>{question1}</h2>
     
 
@@ -72,7 +75,7 @@ function QuizComp({ question1, wAns1a, wAns1b, rAns1, question2, wAns2a, wAns2b,
            </label>
 
           <label>
-               <input type="radio" name="answer" value={answer3} 
+               <input type="radio" name="answer3" value={answer3} 
                onChange={(event)=>setAnswer3(wAns3b)} checked = {answer3 == wAns3b} /> {wAns3b}
            </label>
 
