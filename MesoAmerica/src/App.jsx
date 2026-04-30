@@ -9,6 +9,8 @@ import AztecLearningMod from "./assets/Pages/AztecLearningMod";
 import QuizMayan from "./assets/Pages/QuizMayan";
 import QuizAztec from "./assets/Pages/QuizAztec";
 import QuizOlmec from "./assets/Pages/QuizOlmec";
+import FailedQ from "./assets/Pages/FailedQ";
+import PassedQ from "./assets/Pages/PassedQ";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         <Route path="/QuizMayan" element={<QuizMayan/>} /> 
         <Route path="/QuizAztec" element={<QuizAztec/>} /> 
         <Route path="/QuizOlmec" element={<QuizOlmec/>} /> 
+        <Route path="/FailedQ" element={<FailedQ/>} /> 
+        <Route path="/PassedQ" element={<PassedQ/>} /> 
         
         
       </Routes>
