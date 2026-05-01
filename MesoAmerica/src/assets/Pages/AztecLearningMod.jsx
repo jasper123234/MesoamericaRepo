@@ -19,8 +19,8 @@ function LearningModule1(){
       />
       <LearningModule
         title = "Fun Facts"
-        info = ""
-        img1 = {Boatshi}
+        info = "Tenochtitlan was the capital city which was on a lake and had canals like venice. In the image above, you can see Chinampas which were extremely productive floating gardens. These gardens allowed farmers to grow up to six crops per year, helping feed large populations like Tenochtitlán."
+img1 = {Boatshi}
          />
 
     </div>
