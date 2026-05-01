@@ -6,7 +6,7 @@ import OlmecHead from "../OlmecHead.jpg"
 
 function Olmec(){
   return(
-    <div>
+        <div className="min-h-screen w-full bg-gradient-to-b from-green-200 via-green-400 to-green-700">
       <Header
         title = 'Olmec Civilization'/>
       <BackButton/>   
@@ -16,12 +16,12 @@ function Olmec(){
           x = "top-50"
           y = "left-90"/>
         <Module
-          link = "/QuizOlmec"
+          link = "/OlmecLearningMod2"
           icon = {OlmecHead}
           x = "top-110"
           y = "right-90"/>  
         <Module
-          link = "/DummyLink"
+          link = "/QuizOlmec"
           icon = {OlmecHead}
           x = "top-170"
           y = "right-180"/> 

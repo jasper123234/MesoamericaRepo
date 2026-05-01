@@ -12,16 +12,16 @@ function LearningModule1(){
         title = "Aztec Learning Module"
       />
       <LearningModule
-        title = "Location and Time Period"
-        info = "The Aztec Civilization lived in Central Mexico or Modern day Mexico City in 1200s-1521."
-        img1 = {MapAztec}
+        title = ""
+        info = ""
+        img1 = {}
         
       />
       <LearningModule
-        title = "Fun Facts"
+        title = ""
         info = ""
-        img1 = {Boatshi}
-         />
+        img1 = {}
+    />
 
     </div>
   );

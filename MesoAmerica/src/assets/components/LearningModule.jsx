@@ -1,30 +1,14 @@
 function LearningModule({ title, info, img1 }) {
   return (
-    <div className="relative max-w-xl mx-auto mt-6 space-y-4 font-serif overflow-hidden">
+    <div className="relative max-w-4xl mx-auto mt-10 px-6 py-8 overflow-hidden rounded-3xl">
 
-      {/* Nature Background */}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-sky-300 via-green-200 to-green-500 rounded-3xl">
-
-        {/* Trees */}
-        <div className="absolute bottom-0 left-4 text-7xl">🌳</div>
-        <div className="absolute bottom-0 right-6 text-8xl">🌴</div>
-        <div className="absolute bottom-0 left-1/3 text-6xl">🌲</div>
-
-        {/* Flowers */}
-        <div className="absolute bottom-4 left-16 text-4xl">🌸</div>
-        <div className="absolute bottom-6 right-20 text-4xl">🌺</div>
-        <div className="absolute bottom-3 left-1/2 text-3xl">🌼</div>
-        <div className="absolute bottom-8 right-1/3 text-3xl">🌻</div>
-      </div>
-
-      {/* Title + Image Card */}
-      <div className="bg-gradient-to-br from-amber-200/95 via-orange-300/95 to-yellow-500/95
+      <div className="bg-gradient-to-br from-yellow-200/95 via-orange-300/95 to-yellow-500/95
                       border-4 border-yellow-900
-                      rounded-2xl
+                      rounded-3xl
                       shadow-2xl
-                      p-5 backdrop-blur-sm">
+                      p-6 mb-5 relative">
 
-        <h1 className="text-3xl text-yellow-950 text-center font-bold uppercase tracking-wider mb-4">
+        <h1 className="text-4xl text-yellow-950 text-center font-bold uppercase tracking-wider mb-6">
           {title}
         </h1>
 
@@ -32,23 +16,21 @@ function LearningModule({ title, info, img1 }) {
           <img
             src={img1}
             alt="img1"
-            className="w-52 h-52 object-cover rounded-xl border-4 border-yellow-900 shadow-lg"
+            className="w-64 h-64 object-cover rounded-2xl border-4 border-yellow-900 shadow-xl"
           />
         </div>
       </div>
-
-      {/* Info Card */}
-      <div className="bg-gradient-to-br from-yellow-100/95 via-amber-200/95 to-orange-300/95
+      
+      <div className="bg-gradient-to-r from-yellow-100/95 via-yellow-200/95 to-orange-200/95
                       border-4 border-yellow-900
                       rounded-2xl
-                      shadow-2xl
-                      p-5 backdrop-blur-sm">
+                      shadow-xl
+                      p-6">
 
-        <p className="text-lg text-yellow-950 text-center leading-relaxed">
+        <p className="text-xl text-yellow-950 text-center leading-relaxed font-medium">
           {info}
         </p>
       </div>
-
     </div>
   );
 }

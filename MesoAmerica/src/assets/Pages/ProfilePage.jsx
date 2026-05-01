@@ -1,5 +1,7 @@
 import Profile from "../components/Profile.jsx"
 import Header from "../components/Header.jsx"
+import PFP from "../PFP.jpg"
+import JR from "../JR.jpg"
 
 
 function ProfilePage(){
@@ -10,8 +12,8 @@ function ProfilePage(){
       />
       <Profile
         name = "dantesWOlrd"
-        pfp = "dante.jpg"
-        rank = "gold.jpg"
+        pfp = {PFP}
+        rank = {JR}
       />
     </div>
   );

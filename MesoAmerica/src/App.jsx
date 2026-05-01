@@ -4,11 +4,16 @@ import Olmec from "./assets/Pages/Olmec";
 import Aztec from "./assets/Pages/Aztec";
 import ProfilePage from "./assets/Pages/ProfilePage";
 import MayanLearningMod from "./assets/Pages/MayanLearningMod";
+import MayanLearningMod2 from "./assets/Pages/MayanLearningMod2";
 import OlmecLearningMod from "./assets/Pages/OlmecLearningMod";
+import OlmecLearningMod2 from "./assets/Pages/OlmecLearningMod2";
 import AztecLearningMod from "./assets/Pages/AztecLearningMod";
+import AztecLearningMod2 from "./assets/Pages/AztecLearningMod2";
 import QuizMayan from "./assets/Pages/QuizMayan";
 import QuizAztec from "./assets/Pages/QuizAztec";
 import QuizOlmec from "./assets/Pages/QuizOlmec";
+import FailedQ from "./assets/Pages/FailedQ";
+import PassedQ from "./assets/Pages/PassedQ";
 
 function App() {
   return (
@@ -26,11 +31,16 @@ function App() {
         <Route path="/Olmec" element={<Olmec />} /> 
         <Route path="/Mayan" element={<Mayan />} />
         <Route path="/OlmecLearningMod" element={<OlmecLearningMod />} /> 
+        <Route path="/OlmecLearningMod2" element={<OlmecLearningMod2 />} /> 
         <Route path="/AztecLearningMod" element={<AztecLearningMod />} /> 
+        <Route path="/AztecLearningMod2" element={<AztecLearningMod2 />} /> 
         <Route path="/MayanLearningMod" element={<MayanLearningMod />} /> 
+        <Route path="/MayanLearningMod2" element={<MayanLearningMod2 />} /> 
         <Route path="/QuizMayan" element={<QuizMayan/>} /> 
         <Route path="/QuizAztec" element={<QuizAztec/>} /> 
         <Route path="/QuizOlmec" element={<QuizOlmec/>} /> 
+        <Route path="/FailedQ" element={<FailedQ/>} /> 
+        <Route path="/PassedQ" element={<PassedQ/>} /> 
         
         
       </Routes>
