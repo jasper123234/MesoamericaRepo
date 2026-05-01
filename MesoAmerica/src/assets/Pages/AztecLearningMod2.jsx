@@ -14,13 +14,13 @@ function LearningModule1(){
       <LearningModule
         title = ""
         info = ""
-        img1 = {}
+        //img1 = {}
         
       />
       <LearningModule
         title = ""
         info = ""
-        img1 = {}
+        //img1 = {}
     />
 
     </div>
