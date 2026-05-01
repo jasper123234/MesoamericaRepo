@@ -16,12 +16,12 @@ function App(){
           x = "top-50"
           y = "left-90"/>
         <Module
-          link = "/QuizMayan"
+          link = "/MayanLearningMod2"
           icon = {Temple}
           x = "top-110"
           y = "right-90"/>  
         <Module
-          link = "/DummyLink"
+          link = "/QuizMayan"
           icon = {Temple}
           x = "top-170"
           y = "right-180"/> 
