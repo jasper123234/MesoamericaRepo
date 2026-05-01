@@ -12,7 +12,7 @@ function LearningModule1(){
       <LearningModule
         title = "Location and Time Period"
         info = "The Aztec Civilization lived in Central Mexico or Modern day Mexico City in 1200s-1521."
-        img1 = "dante.jpg"
+        img1 = "Boatshi.jpg"
         
       />
       <LearningModule
