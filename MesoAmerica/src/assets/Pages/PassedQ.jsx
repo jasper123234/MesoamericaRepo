@@ -24,13 +24,11 @@ function App() {
         <p className="text-yellow-100 text-lg leading-relaxed">
           Congratulations on completing the quiz! Your dedication to learning about Mesoamerican civilizations is commendable!
         </p>
-
-        {/* Decorative divider */}
+        
         <div className="w-32 h-1 bg-yellow-400 mx-auto my-6 rounded-full"></div>
 
       </div>
 
-      {/* Corner decorations */}
       <div className="absolute top-0 left-0 w-24 h-24 border-l-4 border-t-4 border-yellow-500 rounded-tl-3xl"></div>
       <div className="absolute bottom-0 right-0 w-24 h-24 border-r-4 border-b-4 border-yellow-500 rounded-br-3xl"></div>
 
