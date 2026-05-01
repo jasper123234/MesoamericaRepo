@@ -2,8 +2,9 @@ import BackButton from "../components/BackButton.jsx"
 import Header from "../components/Header.jsx"
 import Module from "../components/Module.jsx"
 import AztecCal from "../AztecCal.jpg"
+import Path from "../components/Path.jsx"
 
-function App(){
+function Aztec(){
   return(
         <div className="min-h-screen w-full bg-gradient-to-b from-green-200 via-green-400 to-green-700">
       <Header
@@ -13,18 +14,23 @@ function App(){
           link = "/AztecLearningMod"
           icon = {AztecCal}
           x = "top-50"
-          y = "left-90"/>
+          y = "left-90"
+          z = "z-10"/>
+          
         <Module
           link = "/AztecLearningMod2"
           icon = {AztecCal}
           x = "top-110"
-          y = "right-90"/>  
+          y = "right-90"
+          z = "z-10"/>  
         <Module
           link = "/QuizAztec"
           icon = {AztecCal}
           x = "top-170"
-          y = "right-180"/> 
+          y = "right-180"
+          z = "z-10"/> 
+        <Path/>
     </div>
   );
 }
-export default App;
+export default Aztec;
