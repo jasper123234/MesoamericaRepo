@@ -2,6 +2,7 @@ import Header from "../components/Header.jsx"
 import LearningModule from "../components/LearningModule.jsx"
 import MapOlmec from "../MapOlmec.jpg"
 import Head from "../Head.jpg"
+import OlmecCity from "../OlmecCity.jpg"
 
 
 function OlmecLearningMod(){
@@ -25,7 +26,7 @@ function OlmecLearningMod(){
       <LearningModule
         title = "Important Cities"
         info = "San Lorenzo - First Major City, Known for huge stone heads. La Venta - Main city after San Lorenzo, first Pyramid in Mesoamerica. Tres Zapotes - One of the last major cities, lasting longer than most cities."
-        img1 = "dante.jpg"
+        img1 = {OlmecCity}
       />
     </div>
   );
