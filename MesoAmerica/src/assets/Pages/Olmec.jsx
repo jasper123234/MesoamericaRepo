@@ -16,12 +16,12 @@ function Olmec(){
           x = "top-50"
           y = "left-90"/>
         <Module
-          link = "/QuizOlmec"
+          link = "/OlmecLearningMod2"
           icon = {OlmecHead}
           x = "top-110"
           y = "right-90"/>  
         <Module
-          link = "/DummyLink"
+          link = "/QuizOlmec"
           icon = {OlmecHead}
           x = "top-170"
           y = "right-180"/> 

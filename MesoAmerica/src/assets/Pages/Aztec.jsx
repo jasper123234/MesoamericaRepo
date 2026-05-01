@@ -15,12 +15,12 @@ function App(){
           x = "top-50"
           y = "left-90"/>
         <Module
-          link = "/QuizAztec"
+          link = "/AztecLearningMod2"
           icon = {AztecCal}
           x = "top-110"
           y = "right-90"/>  
         <Module
-          link = "/DummyLink"
+          link = "/QuizAztec"
           icon = {AztecCal}
           x = "top-170"
           y = "right-180"/> 
