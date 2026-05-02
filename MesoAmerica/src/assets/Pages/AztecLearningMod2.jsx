@@ -3,12 +3,15 @@ import LearningModule from "../components/LearningModule.jsx"
 import aztecOpression from "../aztecOpression.jpg"
 import Fish from "../Fish.jpg"
 import Huitzilopochtli from "../Huitzilopochtli.jpg"
+import BackButton from "../components/BackButton.jsx"
 
 
 function LearningModule1(){
   return(
     <div className="min-h-screen w-full bg-gradient-to-b from-green-200 via-green-400 to-green-700">
-      
+      <BackButton 
+              link = "/Aztec"
+            />
       <Header
         title = "Aztec Learning Module"
       />

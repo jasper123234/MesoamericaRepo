@@ -3,11 +3,14 @@ import LearningModule from "../components/LearningModule.jsx"
 import MapOlmec from "../MapOlmec.jpg"
 import Head from "../Head.jpg"
 import OlmecCity from "../OlmecCity.jpg"
-
+import BackButton from "../components/BackButton.jsx"
 
 function OlmecLearningMod(){
   return(
         <div className="min-h-screen w-full bg-gradient-to-b from-green-200 via-green-400 to-green-700">
+      <BackButton 
+              link = "/Olmec"
+            />
       <Header
         title = "Olmec Learning Module"
       />

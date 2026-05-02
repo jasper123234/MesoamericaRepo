@@ -10,7 +10,7 @@ function Olmec(){
         <div className="min-h-screen w-full bg-gradient-to-b from-green-200 via-green-400 to-green-700">
       <Header
         title = 'Olmec Civilization'/>
-      <BackButton/> 
+     
        <Module
           link = "/OlmecLearningMod"
           icon = {OlmecHead}

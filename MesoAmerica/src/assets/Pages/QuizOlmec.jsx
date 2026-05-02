@@ -2,6 +2,7 @@ import QuizComp from "../components/QuizComp.jsx"
 import Header from "../components/Header.jsx"
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import BackButton from "../components/BackButton.jsx" 
 
 
 function QuizOlmec(){
@@ -18,6 +19,9 @@ function QuizOlmec(){
   };
   return(
         <div className="min-h-screen w-full bg-gradient-to-b from-green-200 via-green-400 to-green-700">
+      <BackButton 
+              link = "/Olmec"
+            />
       <Header
         title = "Olmec Quiz #1"
       />
