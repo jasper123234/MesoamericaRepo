@@ -16,19 +16,19 @@ function Mayan(){
         <Module
           link = "/MayanLearningMod"
           icon = {Temple}
-          x = "top-50"
+          x = "top-70"
           y = "right-100"
           z = "z-10"/>
         <Module
           link = "/MayanLearningMod2"
           icon = {Temple}
-          x = "top-110"
+          x = "top-130"
           y = "left-110"
           z = "z-10"/>  
         <Module
           link = "/QuizMayan"
           icon = {Temple}
-          x = "top-170"
+          x = "top-190"
           y = "right-110"
           z = "z-10"/> 
         <Path/>  
