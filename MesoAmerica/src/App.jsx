@@ -17,7 +17,7 @@ import PassedQ from "./assets/Pages/PassedQ";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/MesoamericaRepo/">
       <nav className="bg-gradient-to-b from-green-200/95 via-orange-300/95 to-yellow-500/95
                       border-4 border-yellow-900
                       shadow-2xl
@@ -48,7 +48,7 @@ function App() {
         
       </Routes>
     </BrowserRouter>
-    <BrowserRouter basename="/MesoamericaRepo/">
+ 
 
   );
 }
