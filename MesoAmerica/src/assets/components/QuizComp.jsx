@@ -26,7 +26,10 @@ function QuizComp({ question1, wAns1a, wAns1b, rAns1, question2, wAns2a, wAns2b,
    }
 
        return (
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="bg-gradient-to-br from-green-200/95 via-orange-300/95 to-yellow-500/95
+                      border-4 border-yellow-900
+                      shadow-2xl
+                      p-6 mb-5 relative text-4xl text-yellow-950 text-center  tracking-wider mb-6">
       
       <h2>{question1}</h2>
     

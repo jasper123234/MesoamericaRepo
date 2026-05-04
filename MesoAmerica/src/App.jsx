@@ -18,10 +18,10 @@ import PassedQ from "./assets/Pages/PassedQ";
 function App() {
   return (
     <BrowserRouter>
-      <nav className="bg-gradient-to-br from-green-200/95 via-orange-300/95 to-yellow-500/95
+      <nav className="bg-gradient-to-b from-green-200/95 via-orange-300/95 to-yellow-500/95
                       border-4 border-yellow-900
                       shadow-2xl
-                      p-6 mb-5 relative">
+                      p-6 mb-5 relative text-4xl text-yellow-950 text-center font-bold uppercase tracking-wider mb-6">
         <Link to="/ProfilePage">-Profile Page-</Link>
         <Link to="/Aztec">-Aztec Profile-</Link>
         <Link to="/Olmec">-Olmec Profile-</Link>
