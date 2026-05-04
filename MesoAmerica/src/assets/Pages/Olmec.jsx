@@ -15,19 +15,19 @@ function Olmec(){
           link = "/OlmecLearningMod"
           icon = {OlmecHead}
           x = "top-50"
-          y = "left-90"
+          y = "right-100"
           z = "z-10"/>
         <Module
           link = "/OlmecLearningMod2"
           icon = {OlmecHead}
           x = "top-110"
-          y = "right-90" 
+          y = "left-110" 
           z = "z-10"/>
         <Module
           link = "/QuizOlmec"
           icon = {OlmecHead}
           x = "top-170"
-          y = "right-180"
+          y = "right-110"
           z = "z-10"/>
         <Path/>
     </div>

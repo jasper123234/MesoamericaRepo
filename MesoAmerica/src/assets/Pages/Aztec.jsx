@@ -14,20 +14,20 @@ function Aztec(){
           link = "/AztecLearningMod"
           icon = {AztecCal}
           x = "top-50"
-          y = "left-90"
+          y = "right-100"
           z = "z-10"/>
           
         <Module
           link = "/AztecLearningMod2"
           icon = {AztecCal}
           x = "top-110"
-          y = "right-90"
+          y = "left-110"
           z = "z-10"/>  
         <Module
           link = "/QuizAztec"
           icon = {AztecCal}
           x = "top-170"
-          y = "right-180"
+          y = "right-110"
           z = "z-10"/> 
         <Path/>
     </div>
