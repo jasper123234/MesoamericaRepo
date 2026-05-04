@@ -42,10 +42,10 @@ function QuizMayan(){
         wAns2b = "Tenochtitlan"
         rAns2 = "Mexico City"
         
-        question3 = "filler question?"
-        wAns3a = "filler answer 1"
-        wAns3b = "filler answer 2"
-        rAns3 = "filler answer 3"
+        question3 = "What mostly made up the Mayan diet?"
+        wAns3a = "Vegetables"
+        wAns3b = "Meat"
+        rAns3 = "Bread"
         
         onScore={handleScore}
 

@@ -26,20 +26,20 @@ function QuizOlmec(){
         title = "Olmec Quiz #1"
       />
       <QuizComp
-        question1 = "Why are the Olmec civilization often called the “mother culture” of Mesoamerica?"
-        wAns1a = "They were the last civilization in the region"
-        wAns1b = "They only lived in one small village"
-        rAns1 = "They influenced later Mesoamerican cultures"
+        question1 = "How much did the largest Olmec stone head weigh?"
+        wAns1a = "25 tons"
+        wAns1b = "75 tons"
+        rAns1 = "50 tons"
 
-        question2 = "What was the capital of the Olmec civilization?"
-        wAns2a = "La Venta"
+        question2 = "Which Olmec city had the first pyramid in Mesoamerica?"
+        wAns2a = "San Lorenzo"
         wAns2b = "Tres Zapotes"
-        rAns2 = "San Lorenzo"
+        rAns2 = "La Venta"
 
-        question3 = "Why are the Olmec civilization often called the “mother culture” of Mesoamerica?"
-        wAns3a = "They were the last civilization in the region"
-        wAns3b = "They only lived in one small village"
-        rAns3 = "They influenced later Mesoamerican cultures"
+        question3 = "What was the main crop of the Olmec civilization that was considered sacred?"
+        wAns3a = "Beans"
+        wAns3b = "Squash"
+        rAns3 = "Maize"
 
         onScore={handleScore}
       />

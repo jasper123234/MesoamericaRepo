@@ -30,20 +30,20 @@ function QuizAztec(){
 
        
       <QuizComp
-        question1 = "What is the capital city in the Aztec Empire?"
-        wAns1a = "Acapulco"
-        wAns1b = "Zacatecas"
-        rAns1 = "Tenochtitlan"
-       
-        question2 = "What is the name of their sun God"
-        wAns2a = "Tezcatlipoca"
-        wAns2b = "Quetzalcoatl"
-        rAns2 = "Huitzilopochtli"
-  
-        question3 = "What is the name of their moon God"
-        wAns3a = "moon goddess"
-        wAns3b = "god of moon"
-        rAns3 = "moongod"
+        question1 = "What were chinampas used for by the Aztecs?"
+        wAns1a = "Religious temples"
+        wAns1b = "Military fortifications"
+        rAns1 = "Floating garden fields for farming"
+
+        question2 = "What was the name of the Aztec emperor title?"
+        wAns2a = "Tlatoani"
+        wAns2b = "Pipiltin"
+        rAns2 = "Huey Tlatoani"
+
+        question3 = "How many people did the Aztecs sacrifice annually to keep the sun alive?"
+        wAns3a = "About 100 people"
+        wAns3b = "About 10 people"
+        rAns3 = "About 40 people"
 
         onScore={handleScore}  
 
