@@ -2,11 +2,15 @@ import Header from "../components/Header.jsx"
 import LearningModule from "../components/LearningModule.jsx"
 import MapMayan from "../MapMayan.jpg"
 import Drink from "../Drink.jpg"
+import BackButton from "../components/BackButton.jsx"
 
 
 function MayanLearningModule(){
   return(
       <div className="min-h-screen w-full bg-gradient-to-b from-green-200 via-green-400 to-green-700">
+      <BackButton 
+              link = "/Mayan"
+            />
       <Header
         title = "Mayan Learning Module"
       />

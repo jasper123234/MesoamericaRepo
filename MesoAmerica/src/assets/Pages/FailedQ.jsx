@@ -1,16 +1,21 @@
+import BackButton from "../components/BackButton.jsx";
 import Header from "../components/Header.jsx";
 import JR from "../JR.jpg";
 
+
 function App() {
   return (
+    
     <div className="min-h-screen bg-gradient-to-b from-red-950 via-red-900 to-yellow-900 relative overflow-hidden flex items-center justify-center px-6 py-10">
 
       <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_#f87171_1px,_transparent_1px)] [background-size:40px_40px]" />
-
+<BackButton 
+          link="/Aztec"
+        />
       <div className="relative w-full max-w-4xl bg-gradient-to-b from-red-800 via-red-700 to-red-900 border-4 border-yellow-600 rounded-3xl shadow-2xl p-8 text-center">
-
+ 
         <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6 rounded-full"></div>
-
+       
         {/* Enhanced Title */}
         <div className="relative inline-block">
           <h1 className="text-5xl md:text-6xl font-extrabold text-yellow-300 tracking-widest drop-shadow-[0_0_20px_rgba(250,204,21,0.8)]">
