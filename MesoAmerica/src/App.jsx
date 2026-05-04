@@ -48,6 +48,8 @@ function App() {
         
       </Routes>
     </BrowserRouter>
+    <BrowserRouter basename="/MesoamericaRepo/">
+
   );
 }
 
