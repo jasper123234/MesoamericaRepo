@@ -3,7 +3,6 @@ import Header from "../components/Header.jsx"
 import Module from "../components/Module.jsx"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import OlmecHead from "../OlmecHead.jpg"
-import pathbetter from "../pathbetter.jpg"
 
 function Olmec(){
   return(
@@ -11,11 +10,6 @@ function Olmec(){
       <Header
         title = 'Olmec Civilization'/>
       <BackButton/> 
-        <img 
-          icon = {pathbetter}
-          alt="Image outline"
-          className="rounded-2x1"
-        />
         <Module
           link = "/OlmecLearningMod"
           icon = {OlmecHead}
