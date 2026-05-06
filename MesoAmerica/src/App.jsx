@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Mayan from "./assets/Pages/Mayan";
 import Olmec from "./assets/Pages/Olmec";
 import Aztec from "./assets/Pages/Aztec";
-import ProfilePage from "./assets/Pages/ProfilePage";
+import Footer from "./assets/components/Footer";
 import MayanLearningMod from "./assets/Pages/MayanLearningMod";
 import MayanLearningMod2 from "./assets/Pages/MayanLearningMod2";
 import OlmecLearningMod from "./assets/Pages/OlmecLearningMod";
@@ -45,9 +45,10 @@ function App() {
         
         
       </Routes>
+      <Footer/>
     </BrowserRouter>
  
-
+  
   );
 }
 
