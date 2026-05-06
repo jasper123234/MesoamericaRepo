@@ -3,6 +3,8 @@ import LearningModule from "../components/LearningModule.jsx"
 import BackButton from "../components/BackButton.jsx";
 import Olmecfood from "../Olmecfood.jpg"
 import Heirerchy from "../Heirerchy.jpg"
+import statue from "../statue.jpg"
+import Agriculture from "../Agriculture.jpg"
 
 
 function LearningModOlmec(){
@@ -17,12 +19,12 @@ function LearningModOlmec(){
       <LearningModule
           title = "Olmec Diet"
           info = "The Olmecs harvested crops and hunted. The crops including: Maize(corn), Beans, Squash, Chilli peppers, avocados, tomatoes. Animals in their diet include: Fish, shellfish, deer, rabbits, birds"
-          img1 = {OlmecFood} 
+          img1 = {Olmecfood} 
         />
       <LearningModule
           title = "Agricultural Practices"
           info = "The Olmec civilization used slash-and-burn to clear land and grew maize, beans, and squash together. They built raised fields and canals to manage flooding and improve irrigation, and they farmed based on seasonal cycles. Maize was their main food and was considered sacred."
-          img1 = "dante.jpg"
+          img1 = {Agriculture}
       />
       <LearningModule
           title = "Social Structure"
@@ -32,7 +34,7 @@ function LearningModOlmec(){
       <LearningModule
           title = "Religion"
           info = "In the Olmec civilization, people believed in many gods, often connected to nature and animals. Important gods included the jaguar god, maize god, and rain and fertility gods. They made offerings like food and valuable items and held ceremonies for crops, seasons, and important life events. Some rituals included human sacrifice. Priests and shamans led these rituals and were believed to communicate with the gods. They built temples, altars, and pyramids as sacred places."
-          img1 = "dante.jpg"
+          img1 = {statue}
       />
       </div>
       
