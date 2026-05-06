@@ -13,14 +13,14 @@ function MayanLearningModule2(){
         title = "Mayan Learning Module"
       />
       <LearningModule
-        title = "The Mayan Civilization"
-        info = "The Mayans were a Mesoamerican civilization, known for their advanced understanding of astronomy and mathematics, as well as their impressive architectural achievements."
+        title = "Mayan Diet"
+        info = "Their most important crop was corn, being used to make a variety of food and drinks including tortillas, flat cakes, and pies. Their diet was largely vegetarian, consisting of beans, sweet potatoes, tomatoes, squash, avocados, and papayas, although they would eat meat if available. "
         img1 = "dante.jpg"
         
       />
       <LearningModule
-       title = "The Mayan Civilization"
-        info = "The Mayans developed a complex calendar system, created intricate hieroglyphic writing, and built impressive cities with pyramids and temples. Their most important crop was corn, being used to make a variety of food and drinks including tortillas, flat cakes, and pies. Their diet was largely vegetarian, consisting of beans, sweet potatoes, tomatoes, squash, avocados, and papayas, although they would eat meat if available."
+       title = "Agricultural Practices"
+        info = "The Maya civilization used smart farming methods to grow food in tough environments. They practiced slash-and-burn farming, built raised fields in wet areas, and used terraces on hillsides to prevent erosion. Their main crops were Maize, Beans, and Squash, which helped keep the soil healthy and provided a balanced diet."
         img1 = "dante.jpg"
       />
     </div>
