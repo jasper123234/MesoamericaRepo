@@ -22,14 +22,12 @@ function App() {
                       border-4 border-yellow-900
                       shadow-2xl
                       p-6 mb-5 relative text-4xl text-yellow-950 text-center font-bold uppercase tracking-wider mb-6">
-        <Link to="/ProfilePage">-Profile Page-</Link>
         <Link to="/Aztec">-Aztec Profile-</Link>
         <Link to="/Olmec">-Olmec Profile-</Link>
         <Link to="/Mayan">-Mayan Profile-</Link>
       </nav>
 
       <Routes>
-        <Route path="/ProfilePage" element={<ProfilePage />} /> 
         <Route path="/Aztec" element={<Aztec />} /> 
         <Route path="/Olmec" element={<Olmec />} /> 
         <Route path="/Mayan" element={<Mayan />} />
