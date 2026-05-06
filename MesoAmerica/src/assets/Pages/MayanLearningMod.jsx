@@ -15,13 +15,14 @@ function MayanLearningModule(){
         title = "Mayan Learning Module"
       />
       <LearningModule
-        title = "The Mayan Civilization"
-        info = "The Mayans were a Mesoamerican civilization, known for their advanced understanding of astronomy and mathematics, as well as their impressive architectural achievements."
+        title = "Location and Time Period"
+        info = "Located in the Tropical Lowlands of Central America, or Modern day Guatemala. Time Period: 2000 BCE - 1600 CE."
         img1 = {MapMayan}
         
       />
       <LearningModule
-        info = "The Mayans developed a complex calendar system, created intricate hieroglyphic writing, and built impressive cities with pyramids and temples. Their most important crop was corn, being used to make a variety of food and drinks including tortillas, flat cakes, and pies. Their diet was largely vegetarian, consisting of beans, sweet potatoes, tomatoes, squash, avocados, and papayas, although they would eat meat if available."
+        title = "Fun Facts"
+        info = "The Mayan lived in 3 seperate subregions with their own distinct environments and culutures containing The Northern and Southern Lowlands, and modern day Western Honduras. The also drank a lot of hot chocolat, as chocolate was very common in religous rituals as well as standard drinking of the hot chocolate."
         img1 = {Drink}
       />
     </div>
