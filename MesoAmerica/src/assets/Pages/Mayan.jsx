@@ -3,7 +3,6 @@ import Header from "../components/Header.jsx"
 import Module from "../components/Module.jsx"
 import Path from "../components/Path.jsx"
 import Temple from "../Temple.jpg"
-import pathbetter from "../pathbetter.jpg"
 
 
 function Mayan(){
