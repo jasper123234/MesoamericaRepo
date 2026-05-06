@@ -1,7 +1,7 @@
 import Header from "../components/Header.jsx"
 import LearningModule from "../components/LearningModule.jsx"
 import BackButton from "../components/BackButton.jsx";
-import OlmecFood from "../OlmecFood.jpg"
+import Olmecfood from "../Olmecfood.jpg"
 import Heirerchy from "../Heirerchy.jpg"
 
 
