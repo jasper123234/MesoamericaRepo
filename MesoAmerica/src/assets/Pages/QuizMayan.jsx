@@ -32,20 +32,20 @@ function QuizMayan(){
         title = "Mayan Civilization Quiz"
       />
       <QuizComp
-        question1 = "What was the most important crop in Maya daily life?"
-        wAns1a = "Wheat"
-        wAns1b = "Rice"
-        rAns1 = "Corn"
+        question1 = "Where were the Maya civilization located in modern day?"
+        wAns1a = "Mexico"
+        wAns1b = "Peru"
+        rAns1 = "Guatemala"
         
-        question2 = "what is the capital of Mexico?"
-        wAns2a = "Acapulco"
-        wAns2b = "Tenochtitlan"
-        rAns2 = "Mexico City"
+        question2 = "What was the most important crop in Mayan agriculture?"
+        wAns2a = "Beans"
+        wAns2b = "Squash"
+        rAns2 = "Corn"
         
-        question3 = "What mostly made up the Mayan diet?"
-        wAns3a = "Vegetables"
-        wAns3b = "Meat"
-        rAns3 = "Bread"
+        question3 = "Which farming method did the Maya use on hillsides to prevent erosion?"
+        wAns3a = "Slash-and-burn"
+        wAns3b = "Raised fields"
+        rAns3 = "Terraces"
         
         onScore={handleScore}
 
