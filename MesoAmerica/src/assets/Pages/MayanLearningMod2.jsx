@@ -1,6 +1,8 @@
 import Header from "../components/Header.jsx"
 import LearningModule from "../components/LearningModule.jsx"
 import BackButton from "../components/BackButton.jsx"
+import Mayafood from "../Mayafood.jpg"
+import Mayafarm from "../Mayafarm.jpg"
 
 
 function MayanLearningModule2(){
