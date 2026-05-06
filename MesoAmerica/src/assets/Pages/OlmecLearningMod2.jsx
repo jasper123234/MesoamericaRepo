@@ -1,6 +1,8 @@
 import Header from "../components/Header.jsx"
 import LearningModule from "../components/LearningModule.jsx"
 import BackButton from "../components/BackButton.jsx";
+import OlmecFood from "../OlmecFood.jpg"
+import Heirerchy from "../Heirerchy.jpg"
 
 
 function LearningModOlmec(){
@@ -15,7 +17,7 @@ function LearningModOlmec(){
       <LearningModule
           title = "Olmec Diet"
           info = "The Olmecs harvested crops and hunted. The crops including: Maize(corn), Beans, Squash, Chilli peppers, avocados, tomatoes. Animals in their diet include: Fish, shellfish, deer, rabbits, birds"
-          img1 = "dante.jpg"
+          img1 = {OlmecFood} 
         />
       <LearningModule
           title = "Agricultural Practices"
@@ -25,7 +27,7 @@ function LearningModOlmec(){
       <LearningModule
           title = "Social Structure"
           info = "In the Olmec civilization, society was divided into social classes. The elite, including rulers and priests, controlled the government and religion. The middle class included artisans and merchants who made goods and traded. The lower class was made up of farmers and laborers who grew food and built structures. Farmers worked the land, while artisans created pottery, tools, and carvings."
-          img1 = "dante.jpg"
+          img1 = {Heirerchy}
       />
       <LearningModule
           title = "Religion"
