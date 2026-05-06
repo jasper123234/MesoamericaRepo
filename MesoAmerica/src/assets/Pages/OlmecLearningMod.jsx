@@ -28,7 +28,7 @@ function OlmecLearningMod(){
 
       <LearningModule
         title = "Important Cities"
-        info = "San Lorenzo - First Major City, Known for huge stone heads. La Venta - Main city after San Lorenzo, first Pyramid in Mesoamerica. Tres Zapotes - One of the last major cities, lasting longer than most cities."
+        info = "San Lorenzo - First Major City, Known for huge stone heads. La Venta - Main city and had thefirst Pyramid in Mesoamerica. Tres Zapotes - One of the last major cities, lasting longer than most cities."
         img1 = {OlmecCity}
       />
     </div>
