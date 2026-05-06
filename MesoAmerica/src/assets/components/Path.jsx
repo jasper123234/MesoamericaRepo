@@ -1,4 +1,4 @@
-import pathbetter from "../pathbetter.jpg"  
+import pathbetter from "../Pathbetter.jpg"  
 function Path() {
     return (
       <div>
